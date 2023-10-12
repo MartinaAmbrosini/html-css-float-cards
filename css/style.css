@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+body{
+    background-color: azure;
+}
+
+h1 {
+    color: rgb(233, 75, 114);
+    text-align: center;
+    margin-top: 1%;
+    font-weight: bolder;
+}
+
+p {
+    margin-top: 2%;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+    width: 20%;
+    background-color: rgb(5, 0, 0);
+    height: 100px;
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+img {
+    width: 25%;
+    height: 98.5%;
+    float: left;
+}
+
+#name {
+    color: white;
+    float: right;
+    margin-right: 31% ;
+    margin-top: 3%;
+    font-weight: bolder;
+}
+
+h4 {
+    color: white;
+    font-size: 17px;
+    float: right;
+    margin-right: 49% ;
+    margin-top: 1%;
+    font-weight: lighter;
+}
+
+a {
+    float: right;
+    font-size: 15px;
+    color: rgb(70, 162, 223);
+    margin-right: 23% ;
+    margin-top: 1%;
+    font-weight: bold;
+}
